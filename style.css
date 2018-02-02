@@ -1,0 +1,36 @@
+body {
+	margin: 0 auto;
+	background-color: black;
+	overflow: hidden;
+	text-align: center;
+}
+
+.scene {
+	height: 10vh;
+	width: 90vh;
+	margin: 0 auto;
+	margin-top: 10vh;
+	perspective: 90vh;
+	text-align: center;
+}
+
+.block {
+	height: 8vh;
+	width: 8vh;
+	margin: 0 auto;
+	transform-style: preserve-3d;
+	display: inline-block;
+	transition: transform 0.75s;
+}
+
+.side {
+	height: 8vh;
+	width: 8vh;
+	line-height: 8vh;
+	font-size: 8vh;
+	position: absolute;
+	border: 3px solid blue;
+	color: rgba(255,255,0,0.75);
+	background-color: rgba(0,0,255,0.5);
+	backface-visibility: hidden;
+}
