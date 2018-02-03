@@ -11,7 +11,6 @@ body {
 	margin: 0 auto;
 	margin-top: 10vh;
 	perspective: 90vh;
-	text-align: center;
 }
 
 .block {
@@ -29,8 +28,29 @@ body {
 	line-height: 8vh;
 	font-size: 8vh;
 	position: absolute;
-	border: 3px solid blue;
+	border: 1px solid blue;
 	color: rgba(255,255,0,0.75);
 	background-color: rgba(0,0,255,0.5);
 	backface-visibility: hidden;
+}
+
+.point {
+	height: 2vh;
+	width: 2vh;
+	margin-bottom: 1vh;
+	display: inline-block;
+}
+
+.pointside {
+	height: 2vh;
+	width: 2vh;
+}
+
+.pointcircle {
+	height: 1vh;
+	width: 1vh;
+	margin: 0.5vh auto;
+	border-radius: 50%;
+	background-color: rgba(255,255,0,0.75);
+	backface-visibility: hidden;	
 }
